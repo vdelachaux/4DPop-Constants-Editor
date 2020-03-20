@@ -1,0 +1,38 @@
+# Ignore invisible files/folders except me
+.*
+!.gitignore
+
+# Ignore data file
+[dD]ata/
+DATA/
+*.4DD
+*.journal
+*.4DIndx
+*.Match
+
+# Ignore derived data
+Project/DerivedData/
+
+# Ignore logs
+Logs/
+
+# Ignore settings & preferences
+userPreferences.*/
+
+Settings/
+!buildApp.4DSettings
+
+Preferences/
+!4DPop AppMaker.*
+
+# Miscellaneous
+*__Orphan__*
+ehthumbs.db
+Thumbs.db
+*symbols.txt
+Resources/php.ini
+Resources/en to fr.xml
+Resources/fr to en.xml
+Resources/en.xml
+Resources/fr.xml
+Plugins (inactivated)
