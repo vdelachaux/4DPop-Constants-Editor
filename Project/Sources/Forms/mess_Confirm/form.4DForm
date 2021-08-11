@@ -1,0 +1,269 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 527,
+	"height": 194,
+	"markerHeader": 3840,
+	"markerBody": -14336,
+	"markerBreak": -9216,
+	"markerFooter": -4096,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"1.message.2": {
+					"type": "text",
+					"top": 100,
+					"left": 104,
+					"width": 403,
+					"height": 37,
+					"class": "System_Normal",
+					"text": "<mess_Message_2>"
+				},
+				"1.message.1": {
+					"type": "text",
+					"top": 16,
+					"left": 104,
+					"width": 403,
+					"height": 64,
+					"class": "System_Normal",
+					"fontWeight": "bold",
+					"text": "<mess_Message_1>"
+				},
+				"Button_Yes": {
+					"type": "button",
+					"top": 152,
+					"left": 391,
+					"width": 116,
+					"height": 22,
+					"dataSource": "OK",
+					"action": "accept",
+					"text": "<Yes>",
+					"class": "Button",
+					"defaultButton": true
+				},
+				"Button_No": {
+					"type": "button",
+					"top": 152,
+					"left": 255,
+					"width": 116,
+					"height": 22,
+					"dataSource": "bDone",
+					"action": "cancel",
+					"text": "<No>",
+					"class": "Button"
+				},
+				"Bouton_Escape": {
+					"type": "button",
+					"top": 152,
+					"left": 20,
+					"width": 116,
+					"height": 22,
+					"dataSource": "bEscape",
+					"action": "cancel",
+					"text": ":xliff:CommonCancel",
+					"class": "Button"
+				},
+				"Image10": {
+					"type": "picture",
+					"top": 16,
+					"left": 20,
+					"width": 64,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Messages/MAC/Alert Caution.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image22": {
+					"type": "picture",
+					"top": 10,
+					"left": 10,
+					"width": 45,
+					"height": 45,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Messages/WIN/Alert Caution.png"
+				},
+				"Button_Yes2": {
+					"type": "button",
+					"top": 162,
+					"left": 143,
+					"width": 116,
+					"height": 20,
+					"dataSource": "OK",
+					"action": "accept",
+					"text": "<Yes>",
+					"class": "Button",
+					"defaultButton": true
+				},
+				"Button_No2": {
+					"type": "button",
+					"top": 162,
+					"left": 271,
+					"width": 116,
+					"height": 20,
+					"dataSource": "bDone",
+					"action": "cancel",
+					"text": "<No>",
+					"class": "Button"
+				},
+				"Bouton_Escape2": {
+					"type": "button",
+					"top": 162,
+					"left": 399,
+					"width": 116,
+					"height": 20,
+					"dataSource": "bEscape",
+					"action": "cancel",
+					"text": ":xliff:CommonCancel",
+					"class": "Button"
+				},
+				"2.message.2": {
+					"type": "text",
+					"top": 98,
+					"left": 63,
+					"width": 452,
+					"height": 32,
+					"class": "System_Normal",
+					"text": "<mess_Message_2>"
+				},
+				"2.message.1": {
+					"type": "text",
+					"top": 14,
+					"left": 63,
+					"width": 452,
+					"height": 64,
+					"class": "System_Normal",
+					"text": "<mess_Message_1>"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image15": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 527,
+					"height": 194,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image15.png"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 145,
+					"left": 6,
+					"width": 515,
+					"height": 42,
+					"fill": "#ECECEC",
+					"stroke": "#D8D8D8"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 7,
+					"left": 6,
+					"width": 515,
+					"height": 180,
+					"fill": "transparent",
+					"stroke": "#444444"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 7,
+					"left": 6,
+					"width": 515,
+					"height": 139,
+					"stroke": "#444444"
+				},
+				"3.Button.Yes": {
+					"type": "button",
+					"top": 154,
+					"left": 163,
+					"width": 110,
+					"height": 23,
+					"dataSource": "OK",
+					"action": "accept",
+					"text": "<Yes>",
+					"class": "Button"
+				},
+				"3.Button.No": {
+					"type": "button",
+					"top": 154,
+					"left": 279,
+					"width": 110,
+					"height": 23,
+					"dataSource": "bDone",
+					"action": "cancel",
+					"text": "<No>",
+					"class": "Button"
+				},
+				"3.Button.Escape": {
+					"type": "button",
+					"top": 154,
+					"left": 395,
+					"width": 110,
+					"height": 23,
+					"dataSource": "bEscape",
+					"action": "cancel",
+					"text": ":xliff:CommonCancel",
+					"class": "Button"
+				},
+				"Image13": {
+					"type": "picture",
+					"top": 13,
+					"left": 15,
+					"width": 50,
+					"height": 50,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Messages/VISTA/Alert Caution.png"
+				},
+				"3.message.2": {
+					"type": "text",
+					"top": 81,
+					"left": 75,
+					"width": 430,
+					"height": 48,
+					"class": "System_Normal",
+					"text": "<mess_Message_2>"
+				},
+				"3.message.1": {
+					"type": "text",
+					"top": 21,
+					"left": 75,
+					"width": 430,
+					"height": 48,
+					"stroke": "#001C8E",
+					"class": "System_Normal",
+					"text": "<mess_Message_1>"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

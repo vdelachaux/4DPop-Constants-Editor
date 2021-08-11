@@ -1,0 +1,117 @@
+{
+	"00_dev": {
+		"methods": [
+			"00_run",
+			"00_Test"
+		]
+	},
+	"Component": {
+		"groups": [
+			"Private",
+			"Public"
+		],
+		"methods": [
+			"COMPILER_main"
+		]
+	},
+	"doc": {
+		"methods": [
+			"Compiler_doc",
+			"doc_Delete_folder",
+			"doc_Duplicate_Folder",
+			"doc_Temporary_file"
+		]
+	},
+	"lsth": {
+		"methods": [
+			"COMPILER_Lsth",
+			"Lsth_COLLAPSE",
+			"Lsth_DISPLAY_SCROLLBAR",
+			"Lsth_EXPAND",
+			"Lsth_Get_list",
+			"Lsth_RESTORE_STATE",
+			"Lsth_STORE_STATE"
+		]
+	},
+	"mess": {
+		"methods": [
+			"Compiler_mess",
+			"mess_Confirm",
+			"mess_gTxt_Request"
+		],
+		"forms": [
+			"mess_Confirm",
+			"mess_Request"
+		]
+	},
+	"mnu": {
+		"methods": [
+			"Compiler_mnu",
+			"mnu_RELEASE_MENU",
+			"mnu_SET_ENABLED"
+		]
+	},
+	"obj": {
+		"methods": [
+			"COMPILER_obj",
+			"Obj_CENTERED",
+			"obj_pointer",
+			"Obj_spinner"
+		]
+	},
+	"Private": {
+		"methods": [
+			"CONSTANT_NEW_CONSTANT",
+			"CONSTANT_New_file",
+			"CONSTANT_New_group",
+			"CONSTANT_NEW_THEME",
+			"CONSTANT_Save_file",
+			"EDITOR_handler",
+			"EDITOR_LOAD_FILES",
+			"EDITOR_Menus",
+			"EDITOR_Parse_file",
+			"EDITOR_Save",
+			"IMPORT_FROM_PLUGIN",
+			"Import_from_resources_file"
+		],
+		"forms": [
+			"Editor"
+		]
+	},
+	"Public": {
+		"methods": [
+			"4DPop_Constant_Editor"
+		]
+	},
+	"rgx": {
+		"methods": [
+			"Compiler_Rgx",
+			"Rgx_ExtractText",
+			"rgx_Get_Pattern",
+			"Rgx_MatchText",
+			"rgx_NO_ERROR",
+			"rgx_Options",
+			"Rgx_SplitText",
+			"Rgx_SubstituteText"
+		]
+	},
+	"Tools": {
+		"groups": [
+			"doc",
+			"lsth",
+			"mess",
+			"mnu",
+			"obj",
+			"rgx"
+		],
+		"methods": [
+			"COMPILER_tools",
+			"form_Timer",
+			"NO_ERROR",
+			"RECOVER_WINDOW",
+			"string_isLongint",
+			"string_isNumeric"
+		]
+	},
+	"trash": {}
+}

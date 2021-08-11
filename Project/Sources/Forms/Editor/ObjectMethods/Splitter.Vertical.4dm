@@ -1,0 +1,1 @@
+Obj_CENTERED("Label.Liste"; "file.list"; Horizontally centered:K39:1)
