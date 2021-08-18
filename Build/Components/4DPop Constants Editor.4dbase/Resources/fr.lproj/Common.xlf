@@ -1,7 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-   <!--      Translation file for 4D products.   Copyright (C) 2007 4D SAS.   This file is distributed under the same license as the 4D product package.-->
-<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
-<xliff version="1.0">
+<?xml version="1.0" encoding="utf-8"?>
+
+   <!--   
+   Translation file for 4D products.
+   Copyright (C) 2007 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
    <file datatype="x-STR#" original="undefined" product-version="v11" source-language="en" target-language="fr">
       <header>
          <prop-group name="Xliff-Editor.4dbase">

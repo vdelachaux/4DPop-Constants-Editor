@@ -1,7 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-   <!--      This file is distributed under the same license as the enclosing component package.-->
-<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
-<xliff version="1.0">
+<?xml version="1.0" encoding="utf-8"?>
+
+   <!--   
+   This file is distributed under the same license as the enclosing component package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
    <file datatype="x-STR#" date="2006-11-24" original="undefined" product-name="4DPop_Migration" product-version="1.0" source-language="en" target-language="fr">
       <header>
          <prop-group name="Xliff-Editor.4dbase">
