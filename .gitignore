@@ -37,3 +37,5 @@ Resources/en.xml
 Resources/fr.xml
 Plugins (inactivated)
 Build/Components/4DPop Constants Editor.4dbase/_gsdata_
+Build/Components/4DPop Constants Editor.dmg
+Libraries/lib4d-arm64.dylib
