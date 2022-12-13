@@ -1,39 +1,67 @@
-# Ignore invisible files/folders except me
+# Ignore invisible files/folders except .gitignore
 .*
 !.gitignore
 
+#--------------------------------
 # Ignore data file
-[dD]ata/
-DATA/
+#--------------------------------
+[dD][aA][tT][aA]/
 *.4DD
-*.journal
 *.4DIndx
+*.4DIndy
 *.Match
+*.journal
 
+#--------------------------------
 # Ignore derived data
+#--------------------------------
 Project/DerivedData/
 
+#--------------------------------
 # Ignore logs
+#--------------------------------
 Logs/
 
+#--------------------------------
 # Ignore settings & preferences
-userPreferences.*/
-
-Settings/
-!buildApp.4DSettings
-
+#--------------------------------
 Preferences/
 !4DPop AppMaker.*
 
+Settings/
+#!buildApp.4DSettings
+
+userPreferences.*/
+
+#--------------------------------
+# Ignore Trash
+#--------------------------------
+Project/Trash/
+
+Resources/php.ini
+
+#--------------------------------
 # Miscellaneous
+#--------------------------------
 *__Orphan__*
+*symbols.txt
 ehthumbs.db
 Thumbs.db
-*symbols.txt
-Resources/php.ini
+
+#--------------------------------
+# Added by user
+#--------------------------------
+Components/
+!Build/Components
+
+_gsdata_
+
+Project/Sources/Methods/Method*.4dm
+Project/Sources/Methods/00_*.4dm
+
+Libraries/lib4d-arm64.dylib
+
 Resources/en to fr.xml
 Resources/fr to en.xml
 Resources/en.xml
 Resources/fr.xml
-Plugins (inactivated)
-Build/Components/4DPop Constants Editor.4dbase/_gsdata_
