@@ -1,17 +1,68 @@
 {
-	"00_dev": {
+	"_o_": {},
+	"- #️⃣ API": {},
+	"-👥 NAMESPACE": {},
+	"(00_dev)": {},
+	"(Component)": {
+		"groups": [
+			"(Private)",
+			"(Public)"
+		]
+	},
+	"(Private)": {},
+	"(Public)": {},
+	"(Tools)": {},
+	"# 🚧 DEV": {
 		"methods": [
 			"00_run",
 			"00_Test"
 		]
 	},
-	"Component": {
+	"♻️ LIBRAIRIES": {},
+	"⚙️ MACROS": {},
+	"📦 COMPONENT": {
+		"methods": [
+			"COMPILER_main",
+			"CONSTANT_NEW_CONSTANT",
+			"CONSTANT_New_file",
+			"CONSTANT_New_group",
+			"CONSTANT_NEW_THEME",
+			"CONSTANT_Save_file",
+			"EDITOR_handler",
+			"EDITOR_LOAD_FILES",
+			"EDITOR_Menus",
+			"EDITOR_Parse_file",
+			"EDITOR_Save",
+			"IMPORT_FROM_PLUGIN",
+			"Import_from_resources_file"
+		],
+		"forms": [
+			"Editor"
+		]
+	},
+	"🛠️ Tools": {
 		"groups": [
-			"Private",
-			"Public"
+			"doc",
+			"lsth",
+			"mess",
+			"mnu",
+			"obj",
+			"rgx"
 		],
 		"methods": [
-			"COMPILER_main"
+			"COMPILER_tools",
+			"form_Timer",
+			"NO_ERROR",
+			"RECOVER_WINDOW",
+			"string_isLongint",
+			"string_isNumeric"
+		]
+	},
+	"4️⃣ 4DPop": {
+		"methods": [
+			"_4DPopConstants",
+			"COMPILER_4DPop",
+			"editor"
 		]
 	},
 	"doc": {
@@ -59,30 +110,6 @@
 			"Obj_spinner"
 		]
 	},
-	"Private": {
-		"methods": [
-			"CONSTANT_NEW_CONSTANT",
-			"CONSTANT_New_file",
-			"CONSTANT_New_group",
-			"CONSTANT_NEW_THEME",
-			"CONSTANT_Save_file",
-			"EDITOR_handler",
-			"EDITOR_LOAD_FILES",
-			"EDITOR_Menus",
-			"EDITOR_Parse_file",
-			"EDITOR_Save",
-			"IMPORT_FROM_PLUGIN",
-			"Import_from_resources_file"
-		],
-		"forms": [
-			"Editor"
-		]
-	},
-	"Public": {
-		"methods": [
-			"4DPop_Constant_Editor"
-		]
-	},
 	"rgx": {
 		"methods": [
 			"Compiler_Rgx",
@@ -95,23 +122,11 @@
 			"Rgx_SubstituteText"
 		]
 	},
-	"Tools": {
+	"trash": {
 		"groups": [
-			"doc",
-			"lsth",
-			"mess",
-			"mnu",
-			"obj",
-			"rgx"
-		],
-		"methods": [
-			"COMPILER_tools",
-			"form_Timer",
-			"NO_ERROR",
-			"RECOVER_WINDOW",
-			"string_isLongint",
-			"string_isNumeric"
+			"(00_dev)",
+			"(Component)",
+			"(Tools)"
 		]
-	},
-	"trash": {}
+	}
 }

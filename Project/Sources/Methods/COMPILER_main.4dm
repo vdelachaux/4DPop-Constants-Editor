@@ -14,12 +14,6 @@ C_LONGINT:C283(<>Lon_timerEvent)
 // ----------------------------------------------------
 If (False:C215)
 	
-	C_POINTER:C301(4DPop_Constant_Editor; $1)
-	
-End if 
-
-If (False:C215)
-	
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $1)
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $2)
 	C_TEXT:C284(CONSTANT_NEW_CONSTANT; $3)

@@ -44,7 +44,7 @@ If (Asserted:C1132($Lon_parameters>=1; "Missing parameter"))
 		
 	End if 
 	
-	OK:=Num:C11(Test path name:C476(4DPop_hostDatabaseFolder(kResources)+$Txt_target)#Is a document:K24:1)
+	OK:=Num:C11(Test path name:C476(Folder:C1567("/RESOURCES/"; *).file($Txt_target).platformPath)#Is a document:K24:1)
 	
 	If (OK=0)
 		
@@ -148,7 +148,7 @@ If (OK=1)
 					CLOSE RESOURCE FILE:C498($Gmt_tempoResources)
 					DELETE DOCUMENT:C159($Txt_tempoFile)
 					
-					DOM EXPORT TO FILE:C862($Dom_root; 4DPop_hostDatabaseFolder(kResources)+$Txt_target)
+					DOM EXPORT TO FILE:C862($Dom_root; Folder:C1567("/RESOURCES/"; *).file($Txt_target).platformPath)
 					DOM CLOSE XML:C722($Dom_root)
 					
 					$0:=True:C214

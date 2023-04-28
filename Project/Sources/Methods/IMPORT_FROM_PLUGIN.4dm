@@ -39,7 +39,7 @@ Case of
 	Else 
 		
 		//Get the Plugins folder path
-		$Txt_pluginPath:=4DPop_hostDatabaseFolder(kPlugins)+"User Constants.bundle"+Folder separator:K24:12
+		$Txt_pluginPath:=Folder:C1567(fk database folder:K87:14; *).folder("Plugins/User Constants.bundle").platformPath
 		
 		If (Test path name:C476($Txt_pluginPath)=Is a folder:K24:2)
 			
@@ -69,7 +69,8 @@ Case of
 					
 					If ($Boo_OK)
 						
-						$Txt_targetPath:=4DPop_hostDatabaseFolder(kRoot)+"Plugins (inactivated)"+Folder separator:K24:12
+						$Txt_targetPath:=Folder:C1567(fk database folder:K87:14; *).folder("Plugins (inactivated)").platformPath
+						
 						If (Test path name:C476($Txt_targetPath)#Is a folder:K24:2)
 							
 							CREATE FOLDER:C475($Txt_targetPath; *)

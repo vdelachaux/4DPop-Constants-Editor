@@ -124,7 +124,8 @@ Case of
 			If ($Boo_OK)
 				
 				$Txt_fileName:=Choose:C955($Txt_fileName="@.xlf"; $Txt_fileName; $Txt_fileName+".xlf")
-				$Txt_path:=4DPop_hostDatabaseFolder(kResources)+$Txt_fileName
+				$Txt_path:=Folder:C1567("/RESOURCES/"; *).file($Txt_fileName).platformPath
+				//$Txt_path:=4DPop_hostDatabaseFolder(kResources)+$Txt_fileName
 				$Boo_OK:=(Test path name:C476($Txt_path)#Is a document:K24:1)
 				
 				If (Not:C34($Boo_OK))

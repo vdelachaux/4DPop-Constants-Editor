@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<appMaker>
+  <info.plist CFBundleGetInfoString="DEV" CFBundleLongVersionString="0.0" CFBundleShortVersionString="0" NSHumanReadableCopyright="©vdl 2007-{CurrentYear}"/>
+  <options close="true" delete_mac_content="true" increment_version="true" notarize="true"/>
+  <methods/>
+  <copy>
+    <array>
+      <item>4DPop Constants Editor.htm</item>
+      <item>Info.plist</item>
+      <item>Resources/InfoPlist.strings</item>
+    </array>
+  </copy>
+  <delete>
+    <array>
+      <item>./Resources/php.ini</item>
+    </array>
+  </delete>
+  <reveal path=""/>
+</appMaker>
