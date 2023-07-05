@@ -27,7 +27,6 @@ ARRAY TEXT:C222($tTxt_segments; 0x0000)
 ARRAY TEXT:C222($tTxt_str; 0x0000)
 
 // ----------------------------------------------------
-// Initialisations
 $Lon_parameters:=Count parameters:C259
 
 If (Asserted:C1132($Lon_parameters>=1; "Missing parameter"))
