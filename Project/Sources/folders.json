@@ -14,8 +14,7 @@
 	"(Tools)": {},
 	"# 🚧 DEV": {
 		"methods": [
-			"00_run",
-			"00_Test"
+			"00_run"
 		]
 	},
 	"♻️ LIBRAIRIES": {},
@@ -61,7 +60,6 @@
 	"4️⃣ 4DPop": {
 		"methods": [
 			"_4DPopConstants",
-			"COMPILER_4DPop",
 			"editor"
 		]
 	},
