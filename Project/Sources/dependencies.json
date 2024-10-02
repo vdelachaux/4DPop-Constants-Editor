@@ -28,7 +28,6 @@
       "github": "vdelachaux/4DPop-Bookmarks",
       "version": "latest"
     },
-    "4DPop Clipboard": {},
     "4DPop ColorChart": {
       "github": "vdelachaux/4DPop-ColorChart",
       "version": "latest"
@@ -37,12 +36,33 @@
       "github": "vdelachaux/4DPop-Commands",
       "version": "latest"
     },
-    "4DPop Constants Editor": {},
-    "4DPop Image Buddy": {},
-    "4DPop KeepIt": {},
-    "4DPop Pasteboard": {},
-    "4DPop Rulers": {},
-    "4DPop sqlSchemas": {},
-    "4DPop Window": {}
+    "4DPop Constants Editor": {
+      "github": "vdelachaux/4DPop-Constants-Editor",
+      "version": "latest"
+    },
+    "4DPop Image Buddy": {
+      "github": "vdelachaux/4DPop-Image-Buddy",
+      "version": "latest"
+    },
+    "4DPop KeepIt": {
+      "github": "vdelachaux/4DPop-KeepIt",
+      "version": "latest"
+    },
+    "4DPop Pasteboard": {
+      "github": "vdelachaux/4DPop-Pasteboard",
+      "version": "latest"
+    },
+    "4DPop Rulers": {
+      "github": "vdelachaux/4DPop-Rulers",
+      "version": "latest"
+    },
+    "4DPop sqlSchemas": {
+      "github": "vdelachaux/4DPop-sqlSchemas",
+      "version": "latest"
+    },
+    "4DPop Window": {
+      "github": "vdelachaux/4DPop-Window",
+      "version": "latest"
+    }
   }
 }

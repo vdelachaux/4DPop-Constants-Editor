@@ -1,24 +1,9 @@
 {
-	"_o_": {},
-	"- #️⃣ API": {},
-	"-👥 NAMESPACE": {},
-	"(00_dev)": {},
-	"(Component)": {
-		"groups": [
-			"(Private)",
-			"(Public)"
-		]
-	},
-	"(Private)": {},
-	"(Public)": {},
-	"(Tools)": {},
 	"# 🚧 DEV": {
 		"methods": [
 			"00_run"
 		]
 	},
-	"♻️ LIBRAIRIES": {},
-	"⚙️ MACROS": {},
 	"📦 COMPONENT": {
 		"methods": [
 			"COMPILER_main",
@@ -120,11 +105,5 @@
 			"Rgx_SubstituteText"
 		]
 	},
-	"trash": {
-		"groups": [
-			"(00_dev)",
-			"(Component)",
-			"(Tools)"
-		]
-	}
+	"trash": {}
 }

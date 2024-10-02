@@ -1,23 +1,15 @@
-[code-shield]: https://img.shields.io/static/v1?label=language&message=4d&color=blue
-[code-url]: https://developer.4d.com/
-[license-url]: LICENSE
-[notarized]: https://img.shields.io/badge/notarized-blue
+<!-- MARKDOWN LINKS & IMAGES -->
+[release-shield]: https://img.shields.io/github/v/release/vdelachaux/4DPop-Constants-Editor.svg?include_prereleases
+[release-url]: https://github.com/vdelachaux/4DPop-Constants-Editor.svg/releases/latest
 
-[code-top]: https://img.shields.io/github/languages/top/vdelachaux/4DPop-Constants-Editor.svg
-[code-size]: https://img.shields.io/github/languages/code-size/vdelachaux/4DPop-Constants-Editor.svg
-[release-shield]: https://img.shields.io/github/v/release/vdelachaux/4DPop-Constants-Editor?include_prereleases
-[release-url]: https://github.com/vdelachaux/4DPop-Constants-Editor/releases/latest
-[license-shield]: https://img.shields.io/github/license/vdelachaux/4DPop-Constants-Editor
-[build-shield]: https://github.com/vdelachaux/4DPop-Constants-Editor/actions/workflows/build.yml/badge.svg
-[build-url]: https://github.com/vdelachaux/4DPop-Constants-Editor/actions/workflows/build.yml
+[license-shield]: https://img.shields.io/github/license/vdelachaux/4DPop-Constants-Editor.svg
 
-[![language][code-shield]][code-url]
-[![language-top][code-top]][code-url]
-![code-size][code-size]
-[![license][license-shield]][license-url]
+<!--BADGES-->
+![Static Badge](https://img.shields.io/badge/Dev%20Component-blue?logo=4d&link=https%3A%2F%2Fdeveloper.4d.com)
+![Static Badge](https://img.shields.io/badge/Project%20Dependencies-blue?logo=4d&link=https%3A%2F%2Fdeveloper.4d.com%2Fdocs%2FProject%2Fcomponents%2F%23loading-components)
+<br>
 [![release][release-shield]][release-url]
-[![build][build-shield]][license-url]
-![notarized][notarized]
+[![license][license-shield]](LICENSE)
 
 # 4DPop-Constants-Editor
 Create and publish your own personalized sets of constants in a dedicated editor. Use them immediately in your 4D methods.
