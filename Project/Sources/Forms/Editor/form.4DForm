@@ -5,9 +5,9 @@
 	"width": 626,
 	"height": 545,
 	"markerHeader": 3840,
-	"markerBody": -14336,
-	"markerBreak": 545,
-	"markerFooter": 545,
+	"markerBody": 3840,
+	"markerBreak": 3840,
+	"markerFooter": 3840,
 	"events": [
 		"onLoad",
 		"onMenuSelect",
@@ -43,7 +43,8 @@
 					"height": 505,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "transparent"
 				},
 				"Rectangle1": {
 					"type": "rectangle",
@@ -53,7 +54,7 @@
 					"height": 482,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"fill": "#E7EEF6",
+					"fill": "automatic",
 					"stroke": "transparent"
 				},
 				"Label.Liste": {
@@ -82,7 +83,7 @@
 					"scrollbarVertical": "hidden",
 					"scrollbarHorizontal": "hidden",
 					"dragging": "custom",
-					"stroke": "#444444",
+					"stroke": "automatic",
 					"fill": "transparent",
 					"fontFamily": "DIN Condensed Bold",
 					"fontSize": 13,
@@ -505,14 +506,15 @@
 					"scrollbarVertical": "hidden",
 					"scrollbarHorizontal": "hidden",
 					"dragging": "custom",
-					"fill": "transparent",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"method": "ObjectMethods/lst.parse.4dm",
 					"events": [
 						"onSelectionChange",
 						"onExpand",
 						"onCollapse"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"name.group.item.box": {
 					"type": "input",
@@ -660,5 +662,10 @@
 			"Vue 8": {},
 			"Splitters": {}
 		}
+	},
+	"geometryStamp": 22,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

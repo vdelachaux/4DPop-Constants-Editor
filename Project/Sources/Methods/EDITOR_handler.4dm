@@ -18,6 +18,7 @@ C_TEXT:C284($1)
 
 C_BOOLEAN:C305($Boo_expanded; $Boo_OK)
 C_LONGINT:C283($Lon_action; $Lon_currentFile; $Lon_parameters; $Lon_uid; $Lon_Window; $Lon_x; $Lst_buffer; $Lst_constant)
+var $Lon_constantIndex; $tLon_itemRef : Integer
 C_PICTURE:C286($Pic_file)
 C_TEXT:C284($Txt_entryPoint; $Txt_fileName; $Txt_Message; $Txt_name; $Txt_path)
 
@@ -220,10 +221,12 @@ Case of
 		$Lon_uid:=obj_pointer("UID")->+1
 		
 		$Lst_constant:=New list:C375
+		Form:C1466.lastThemeIndex:=Num:C11(Form:C1466.lastThemeIndex)+1
 		
 		$Txt_name:=Get localized string:C991("NewTheme")
 		APPEND TO LIST:C376(<>Lst_constants; $Txt_name; -$Lon_uid; $Lst_constant; True:C214)
 		SET LIST ITEM PROPERTIES:C386(<>Lst_constants; 0; False:C215; Bold:K14:2; 0; 0x00ABABAB)
+		SET LIST ITEM PARAMETER:C986(<>Lst_constants; 0; "index"; Form:C1466.lastThemeIndex)
 		
 		SET LIST ITEM PARAMETER:C986(<>Lst_files; *; "modified"; True:C214)
 		
@@ -238,12 +241,16 @@ Case of
 	: ($Txt_entryPoint="menu.new.constant")
 		
 		$Lst_constant:=Lsth_Get_list(<>Lst_constants)
+		GET LIST ITEM:C378(<>Lst_constants; *; $tLon_itemRef; $Txt_name)
+		GET LIST ITEM PARAMETER:C985(<>Lst_constants; $tLon_itemRef; "nextConstantIndex"; $Lon_constantIndex)
+		SET LIST ITEM PARAMETER:C986(<>Lst_constants; $tLon_itemRef; "nextConstantIndex"; $Lon_constantIndex+1)
 		
 		$Lon_uid:=obj_pointer("UID")->+1
 		
 		$Txt_name:=Replace string:C233(Get localized string:C991("ConstantNumber"); "{ID}"; String:C10($Lon_uid))
 		APPEND TO LIST:C376($Lst_constant; $Txt_name; $Lon_uid)
 		SET LIST ITEM PARAMETER:C986($Lst_constant; 0; "type"; "S")
+		SET LIST ITEM PARAMETER:C986($Lst_constant; 0; "index"; $Lon_constantIndex)
 		
 		SET LIST ITEM PARAMETER:C986(<>Lst_files; *; "modified"; True:C214)
 		

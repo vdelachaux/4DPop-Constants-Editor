@@ -25,6 +25,9 @@ If (False:C215)
 	C_LONGINT:C283(Lsth_STORE_STATE; $0)
 	C_LONGINT:C283(Lsth_STORE_STATE; $1)
 	
+	C_LONGINT:C283(Lsth_SortByParam; $1)
+	C_TEXT:C284(Lsth_SortByParam; $2)
+	
 End if 
 
 // ----------------------------------------------------

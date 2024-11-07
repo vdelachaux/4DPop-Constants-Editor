@@ -64,6 +64,7 @@
 			"Lsth_EXPAND",
 			"Lsth_Get_list",
 			"Lsth_RESTORE_STATE",
+			"Lsth_SortByParam",
 			"Lsth_STORE_STATE"
 		]
 	},

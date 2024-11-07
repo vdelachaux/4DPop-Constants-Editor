@@ -43,11 +43,13 @@ Case of
 				//…………………………………………………………………………
 			: (string_isNumeric($Txt_value))
 				
+				GET SYSTEM FORMAT:C994(Decimal separator:K60:1; $Txt_decimalSeparator)
 				$Txt_type:="R"
 				$Num_value:=Num:C11($Txt_value)
 				SET LIST ITEM PARAMETER:C986(<>Lst_constants; *; "value"; $Num_value)
+				//$Num_value:=Num($Txt_value; $Txt_decimalSeparator)
+				//SET LIST ITEM PARAMETER(<>Lst_constants; *; "value"; String($Num_value; "&xml"))
 				
-				GET SYSTEM FORMAT:C994(Decimal separator:K60:1; $Txt_decimalSeparator)
 				$Txt_buffer:=String:C10(Dec:C9($Num_value); "0.############################")
 				$Txt_value:=String:C10(Int:C8($Num_value))+$Txt_decimalSeparator+Substring:C12($Txt_buffer; 3)
 				(OBJECT Get pointer:C1124(Object named:K67:5; "value.item.box"))->:=$Txt_value
