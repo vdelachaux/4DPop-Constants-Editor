@@ -5,9 +5,9 @@
 	"width": 527,
 	"height": 194,
 	"markerHeader": 3840,
-	"markerBody": -14336,
-	"markerBreak": -9216,
-	"markerFooter": -4096,
+	"markerBody": 3840,
+	"markerBreak": 3840,
+	"markerFooter": 3840,
 	"events": [
 		"onLoad"
 	],
@@ -275,5 +275,9 @@
 			"Vue 8": {},
 			"Vue 9": {}
 		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

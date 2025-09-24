@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="25">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="27">
 	<com.4d>
 		<interface>
-			<user can_change_password="true" display_list="false" print_progress="false"/>
+			<user can_change_password="true" color_scheme="inherited" display_list="false" print_progress="false"/>
 			<developper allow_read_only_structure="false"/>
 			<misc formula_editor_with_full_lists="false"/>
 		</interface>
