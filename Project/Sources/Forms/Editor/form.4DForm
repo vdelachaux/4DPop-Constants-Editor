@@ -425,17 +425,6 @@
 					"left": 264,
 					"height": 30
 				},
-				"footer.background": {
-					"type": "picture",
-					"top": 522,
-					"left": 0,
-					"width": 264,
-					"height": 23,
-					"sizingX": "grow",
-					"sizingY": "move",
-					"pictureFormat": "scaled",
-					"picture": "/RESOURCES/Images/FooterBack.tiff"
-				},
 				"Header_Separator_4": {
 					"type": "line",
 					"top": 4,
@@ -473,6 +462,16 @@
 					"events": [
 						"onClick"
 					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 522,
+					"left": 0,
+					"width": 264,
+					"height": 0,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#c0c0c0"
 				}
 			}
 		},
@@ -663,7 +662,7 @@
 			"Splitters": {}
 		}
 	},
-	"geometryStamp": 22,
+	"geometryStamp": 37,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

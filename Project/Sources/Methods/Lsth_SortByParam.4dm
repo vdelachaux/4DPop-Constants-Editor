@@ -2,7 +2,7 @@
 #DECLARE($Lst_constant : Integer; $tTxt_SortParam : Text)
 
 C_BOOLEAN:C305($Boo_expanded; $Boo_num)
-C_LONGINT:C283($Lon_buffer; $Lon_count; $Lon_formEvent; $Lon_i; $Lon_id; $Lon_j; $Lst_constant; $Lst_target)
+C_LONGINT:C283($Lon_buffer; $Lon_count; $Lon_formEvent; $Lon_i; $Lon_id; $Lon_j; $Lst_target)
 var $Lon_subList : Integer
 C_PICTURE:C286($Pic_buffer)
 C_TEXT:C284($Txt_buffer; $Txt_label)
