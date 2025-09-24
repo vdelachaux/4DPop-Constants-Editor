@@ -118,7 +118,7 @@
 		</data>
 		<key>Resources/InfoPlist.strings</key>
 		<data>
-		lkQvJ909nsFpD9YpRZ1AuhXkDOo=
+		Nt5YbVnAu2VpeL1FAV8qJK8nW9k=
 		</data>
 		<key>Resources/constants.tmpl</key>
 		<data>
@@ -245,6 +245,10 @@
 		<data>
 		lKkPELbj/QhSwd4hmeCueXwzMzQ=
 		</data>
+		<key>Resources/logo.png</key>
+		<data>
+		uVcUNeuqmfcRIKL2GzIbX7i2Jss=
+		</data>
 		<key>Resources/php.ini</key>
 		<data>
 		icy7mhEjmZ8ST2sOOpN9LD0x8sE=
@@ -256,7 +260,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			j3CZ5gxXa0EjBIrOyr5al6Nu6GM=
+			zJpHoV4bGW/gYi/IbAHmqjGlkEE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "4DPop Constants Editor.4DZ" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DYRKW64QA9</string>
@@ -265,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AIKyWFGDlnBdiSNrjsEcCWr3sfiohg3Ni8g1hhkEbx0=
+			72idOsGSDWj1QevmYCH5tjMitxaxO0tyKdwveQPyooU=
 			</data>
 		</dict>
 		<key>Resources/4DPop.json</key>
@@ -468,7 +472,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbudWEn4Wv+w1cn6bYSrOCTCdXy93DFFWG8mrcNeSRs=
+			/fhx3a2Q5R3cSL/5Dgfry8g7tbSc9PJlmt8E2FTgoYo=
 			</data>
 		</dict>
 		<key>Resources/constants.tmpl</key>
@@ -600,6 +604,13 @@
 			<key>hash2</key>
 			<data>
 			SOZWYHwFbtKPhU4+yI/5ZyHwIiHqtABtO//kxFIc8AI=
+			</data>
+		</dict>
+		<key>Resources/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hk54IMd10rYkQPjPhUsnXnHu+wVc5VuRDEyxfuWMgGs=
 			</data>
 		</dict>
 		<key>Resources/php.ini</key>

@@ -83,10 +83,7 @@
 					"scrollbarVertical": "hidden",
 					"scrollbarHorizontal": "hidden",
 					"dragging": "custom",
-					"stroke": "automatic",
 					"fill": "transparent",
-					"fontFamily": "DIN Condensed Bold",
-					"fontSize": 13,
 					"borderStyle": "none",
 					"method": "ObjectMethods/file.list.4dm",
 					"events": [

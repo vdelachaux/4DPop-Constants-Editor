@@ -23,7 +23,7 @@
 					"width": 64,
 					"height": 64,
 					"pictureFormat": "scaled",
-					"picture": "/RESOURCES/Images/Messages/MAC/Alert Note.png"
+					"picture": "/.PRODUCT_RESOURCES/Images/Common/alert_24.png"
 				},
 				"mess_Request_Input": {
 					"type": "input",

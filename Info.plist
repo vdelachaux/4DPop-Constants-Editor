@@ -6,13 +6,13 @@
     <key>CFBundleDisplayName</key>
     <string>4DPop Constants Editor</string>
     <key>CFBundleVersion</key>
-    <string>85</string>
+    <string>86</string>
     <key>CFBundleShortVersionString</key>
     <string>21</string>
     <key>CFBundleGetInfoString</key>
     <string>21</string>
     <key>CFBundleLongVersionString</key>
-    <string>21 (84)</string>
+    <string>21 (85)</string>
     <key>NSHumanReadableCopyright</key>
     <string>©vdl 2007-2025</string>
     <key>CSResourcesFileMapped</key>

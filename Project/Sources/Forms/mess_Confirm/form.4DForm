@@ -26,19 +26,18 @@
 					"top": 100,
 					"left": 104,
 					"width": 403,
-					"height": 37,
-					"class": "System_Normal",
-					"text": "<mess_Message_2>"
+					"height": 26,
+					"text": "<mess_Message_2>",
+					"fontTheme": "additional"
 				},
 				"1.message.1": {
 					"type": "text",
 					"top": 16,
 					"left": 104,
 					"width": 403,
-					"height": 64,
-					"class": "System_Normal",
-					"fontWeight": "bold",
-					"text": "<mess_Message_1>"
+					"height": 62,
+					"text": "<mess_Message_1>",
+					"fontTheme": "main"
 				},
 				"Button_Yes": {
 					"type": "button",
@@ -49,7 +48,6 @@
 					"dataSource": "OK",
 					"action": "accept",
 					"text": "<Yes>",
-					"class": "Button",
 					"defaultButton": true
 				},
 				"Button_No": {
@@ -60,8 +58,7 @@
 					"height": 22,
 					"dataSource": "bDone",
 					"action": "cancel",
-					"text": "<No>",
-					"class": "Button"
+					"text": "<No>"
 				},
 				"Bouton_Escape": {
 					"type": "button",
@@ -71,8 +68,7 @@
 					"height": 22,
 					"dataSource": "bEscape",
 					"action": "cancel",
-					"text": ":xliff:CommonCancel",
-					"class": "Button"
+					"text": ":xliff:CommonCancel"
 				},
 				"Image10": {
 					"type": "picture",
@@ -81,7 +77,7 @@
 					"width": 64,
 					"height": 64,
 					"pictureFormat": "scaled",
-					"picture": "/RESOURCES/Images/Messages/MAC/Alert Caution.png"
+					"picture": "/.PRODUCT_RESOURCES/Images/Common/alert_24.png"
 				}
 			}
 		},
@@ -269,5 +265,6 @@
 	"$4d": {
 		"version": "1",
 		"kind": "form"
-	}
+	},
+	"geometryStamp": 12
 }
