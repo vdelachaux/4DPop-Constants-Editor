@@ -23,7 +23,7 @@
 					"width": 64,
 					"height": 64,
 					"pictureFormat": "scaled",
-					"picture": "/.PRODUCT_RESOURCES/Images/Common/alert_24.png"
+					"picture": "/RESOURCES/Images/alert.png"
 				},
 				"mess_Request_Input": {
 					"type": "input",
@@ -279,5 +279,6 @@
 	"$4d": {
 		"version": "1",
 		"kind": "form"
-	}
+	},
+	"geometryStamp": 1
 }
